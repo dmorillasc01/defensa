@@ -58,6 +58,20 @@ ul li {
     background: lightblue;
 }
 
+/* Colores por letra */
+
+.rojo {
+    color: #fc5858;
+}
+
+.azul {
+    color: #7dedfc
+}
+
+.turquesa {
+    color: #0d808f
+}
+
 /* Botones */
 button {
     padding: 10px 20px;
