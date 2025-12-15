@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #393a39;
+}
+
+/* Estilo de envio.html */
+.envio {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.envio th {
+    background: #d6d6d6;
+    color: rgb(10, 10, 10);
+    padding: 12px;
+    font-size: 20px;
+}
+
+.envioind {
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.envioind h2 {
+    margin-bottom: 10px;
+}
+
+.envioind ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.enviotitulo {
+    font-size: 24px;
+    text-align: center;
+}
+
+ul li {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Colores por envío */
+.seco {
+    background: #f8d3d3;
+}
+
+.frio {
+    background: #e3e9f7;
+}
+
+.congelado {
+    background: lightblue;
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    background: #0077cc;
+    color: white;
+    border-radius: 5px;
+}
