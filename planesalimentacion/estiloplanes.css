@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #393a39;
+}
+
+/* Encabezado */
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+    background-color: #e1f8c6;
+}
+
+/* Tabla de Planes */
+.planes {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.planes th {
+    background: #d6d6d6;
+    color: rgb(10, 10, 10);
+    padding: 12px;
+    font-size: 20px;
+}
+
+.plan {
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.plan h2 {
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.precio {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul li {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Colores por plan */
+.basico {
+    background: #e3f7e3;
+}
+
+.intermedio {
+    background: #e3e9f7;
+}
+
+.avanzado {
+    background: #f7e3e3;
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    background: #0077cc;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+/* Pago anual */
+.anual {
+    background: #ddd;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+}
+
+/* Formulario */
+.formulario {
+    width: 60%;
+    margin: 40px auto;
+    background: white;
+    border-collapse: collapse;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formulario th {
+    background: #0077cc;
+    color: white;
+    padding: 12px;
+}
+
+.formulario td {
+    padding: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+}
+
+.enviar {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+}
+
+.enviar:hover {
+    background: #1e7e34;
+}
+
+/* Extras */
+.extras {
+    width: 50%;
+    margin: 40px auto;
+    background: white;
+    border-collapse: collapse;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.extras th {
+    background: #e1f8c6;
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    font-weight: bold;
+}
+
+.extras td {
+    padding: 10px;
+}

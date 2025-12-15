@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #393a39;
+    margin: 20px;
+}
+
+/* Encabezado */
+.header {
+    width: 100%;
+    text-align: center;
+    background-color: #e1f8c6;
+    color: rgb(56, 56, 56);
+    padding: 30px 0;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Categorías */
+.categorias {
+    width: 100%;
+    margin-top: 30px;
+    background: white;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.categorias th {
+    background: #0066cc;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.categorias td {
+    width: 33%;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.categorias a {
+    display: block;
+    padding: 5px 0;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.categorias a:hover {
+    text-decoration: underline;
+}
+
+/* Tarjetas */
+.tarjetas {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+}
+
+.tarjetas th {
+    background: #e1f8c6;
+    color: #393a39;
+    padding: 12px;
+    font-size: 22px;
+}
+
+.tarjeta {
+    width: 33%;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+.rutina-img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Colores por nivel */
+.principiante {
+    border-top: 5px solid green;
+}
+
+.intermedio {
+    border-top: 5px solid #0077cc;
+}
+
+.avanzado {
+    border-top: 5px solid red;
+}
+
+/* Botón */
+button {
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005fa3;
+}
